@@ -1,0 +1,203 @@
+header.primary{
+text-align:center;
+  color:#ffffff;
+  /* Longform */
+  padding-top:40px;
+  padding-right:40px;
+  padding-bottom:60px;
+  padding-left:40px;
+  /* Shorthand */
+  padding: 40px 40px 60px 40px;
+  text-shadow: 2px 2px #000;
+
+}
+
+  {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #000;
+}
+.gallery {
+	background-color: #CCC;
+	width: 738px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+  
+	border: 1px solid #999;
+	height: 535px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 4px;
+}
+.gallery img {
+	position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  display: none; 
+  z-index: 4; 
+  opacity: 0; 
+  width: 600px; 
+  height: 486px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+
+  
+}
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  color: #ffffff;
+
+}
+
+.container{
+  width:80vw;
+  margin:auto;
+  background: #A65198;
+  
+
+}
+
+
+
+}
+
+
+
+.container ul{
+  border-bottom: 3px solid #000;
+}
+
+
+/* Responsive images */
+img{
+  max-width:100%;
+  height:200px;
+  
+
+}
+
+figure img{
+  display: block;
+  margin: auto;
+}
+
+table{
+  width:100%;
+  border:2px solid #030101;
+  border-collapse: collapse;
+}
+
+table caption{
+  padding:20px;
+  font-weight:bold;
+  font-size: 1.5em;
+}
+tr:nth-child(even){
+  background:rgba(0,0,0,.1);
+}
+
+tr:hover{
+  background:rgba(0,0,0,.2);
+}
+th{
+  background:#8b3b80;
+  color:rgb(7, 2, 2);
+  padding:10px;
+}
+td{
+  border:2px solid #030101;
+  border:1px solid ;
+  padding:5px;
+}
+
+
+
+
+
+
+
+}
+
+header.primary h2{
+  font-size: 5.0em;
+  margin:20px 0;
+}
+
+
+
+
+
+body{
+  background:url("../img/space.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header.primary nav{
+  width:50vw;
+  margin:20px auto 40px;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+    justify-content:space-evenly;
+  padding:0;
+}
+
+
+
+header.primary nav li {
+ list-style-type:none;
+}
+header.primary nav a:link, header.primary nav a:visited{
+  color:#fff;
+  text-decoration:none;
+  background:#F8F8FF;
+  background:rgba(0,0,0,4);
+  display:block;
+  padding: 8px 16px;
+  border-radius:20px;
+}
+
+header.primary nav a:hover{
+  background:(0,0,0.8);
+}
+
+
+
+
+
+aside footer{
+  display:none;
+}
+
+#colophon h6{
+  padding:10px;
+  margin:0;
+  text-align:center;
+  color:#fff;
+  font-size:.8em;
+  text-transform:uppercase;
+}
